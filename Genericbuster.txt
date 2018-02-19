@@ -1,5 +1,11 @@
 docs
 doc
+WebResource.axd?d=
+ScriptResource.axd?d=
+cgi-bin/rpc/index.pl
+Telerik.Web.UI.DialogHandler.aspx
+Telerik.Web.UI.SpellCheckHandler.axd
+Telerik.Web.UI.WebResource.axd
 _passwords
 _private
 _vti_bin
