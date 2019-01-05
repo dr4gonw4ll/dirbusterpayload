@@ -1,37 +1,21 @@
 Cycript tricks
 
-For Mac version
-
-
+For Mac version:
 NSApplication.sharedApplication   [ will return instance of the application running]
-
 NSapplication.sharedApplication.windows  [ wil return list of windows ]
-
 NSApplication.sharedApplication.windows[0].title
 
-IPHONE apps  here is the deal
-
+IPHONE apps:
 UIApp [ instance of the application]
-
 UIApp.windows [ will show windows of the app]
-
-
 UIApp.windows[0].subviews[0]   [ for the subwindows in the application]
-
 UIApp.window[0].subview[0].subview[0].... [ for all the subview in the application]
 
-
-
-To get the methods of the particular class or Visible view 
-
+To get the methods of the particular class or Visible view:
 <VIewcontrollerName>  -> isa.messages   or <viewcontrollrname>.messages [ will get all the methods of the particular controller]
 
-
-
-Getting access to method or rewriting method
-
+Getting access to method or rewriting method:
 <viewcontrollername>.messages[‘<methodname>’] = function () { return “something”;} // rewriting function   [ this is how we write function ]
 
-Another trick with delegate invoking method
-
+Another trick with delegate invoking method:
 [UIApp.delegate.<methodname]
