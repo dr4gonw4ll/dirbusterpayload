@@ -49,3 +49,8 @@ Allow: GET, POST, HEAD
 Content-Security-Policy: default-src https:
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Public-Key-Pins-Report-Only: pin-sha256="cUPcTAZWKaASuYWhhneDttWpY3oBAkE3h2+soZS7sWs="; 
+X-Originating-IP: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+X-Remote-IP: 127.0.0.1
+X-Remote-Addr: 127.0.0.1
+X-Client-IP: 127.0.0.1
