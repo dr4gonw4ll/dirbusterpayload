@@ -45,5 +45,5 @@ TRUE
 System.Windows.Data.ObjectDataProvider
 java.lang.Number
 {{self}}
-{{}}
+{{5*5}}
 {}
