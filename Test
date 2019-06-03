@@ -47,3 +47,4 @@ java.lang.Number
 {{self}}
 {{5*5}}
 {}
+$test
