@@ -1,0 +1,7 @@
+import base64
+
+f = open("C:\\Users\\anand\\Downloads\\output.txt","rb")
+s = open("C:\\Users\\anand\\Downloads\\output.bapp","wb")
+z = base64.b64decode(f.read())
+s.write(z)
+s.close()
